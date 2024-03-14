@@ -1,9 +1,9 @@
-import React, {useState} from "react";
+import React from "react";
 
 const FilterInput = ({newSearch, handleSearchChange}) => {
     return(
         <p>
-            filter shown with
+            Filter shown with: 
             <input type="text" value={newSearch} onChange={handleSearchChange} id="input"/>
         </p>
     )

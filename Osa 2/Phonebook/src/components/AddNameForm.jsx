@@ -18,16 +18,18 @@ const AddNameForm = ({addName}) => {
         setNewName('');
         setNewNumber('');
     }
+    
     return (
         <form onSubmit={handleSubmit}>
             <div>
-                name: <input value={newName} onChange={handleNameChange} />
+                Name: 
+                <input value={newName} onChange={handleNameChange} id="nameInput"/>
             </div>
             <div>
-                number: <input value={newNumber} onChange={handleNumberChange} />
+                Number:<input value={newNumber} onChange={handleNumberChange} id="numberInput"/>
             </div>
             <div>
-                <button type="submit">add</button>
+                <button type="submit">Add</button>
             </div>
         </form>
     )
