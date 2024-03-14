@@ -1,6 +1,3 @@
-// npm run dev
-// npm run server
-
 import {useEffect, useState} from "react";
 import AddNameForm from "./components/AddNameForm";
 import FilterInput from "./components/FilterInput";
