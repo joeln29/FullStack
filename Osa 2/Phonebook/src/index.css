@@ -55,6 +55,11 @@ button {
   transition: border-color 0.25s;
 }
 
+.message {
+  color: green;
+}
+
+
 button:hover {
   border-color: #646cff;
 }

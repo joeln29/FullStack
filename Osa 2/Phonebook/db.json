@@ -21,18 +21,8 @@
       "id": 4
     },
     {
-      "name": "Testi",
-      "number": "123",
-      "id": 5
-    },
-    {
-      "name": "Koira",
-      "number": "456",
-      "id": 6
-    },
-    {
-      "name": "Kissa",
-      "number": "789",
+      "name": "",
+      "number": "",
       "id": 7
     }
   ]
